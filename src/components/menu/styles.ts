@@ -39,6 +39,7 @@ export const StyledLink = styled(Link)`
   text-decoration: none;
   color: ${theme.colors.maincolor};
 
+
   &:hover{
     background-color: ${theme.colors.softbg};
     transition: all 0.3s ease-in-out;
