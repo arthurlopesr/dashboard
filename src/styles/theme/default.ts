@@ -15,6 +15,20 @@ export const theme = {
     light: 300,
     normal: 400,
     bold: 600,
+    sizes: {
+      xxxxsmall: '0.8rem',
+      xs: '1rem',
+      xxxsmall: '1.2rem',
+      xxsmall: '1.4rem',
+      xsmall: '1.6rem',
+      small: '2rem',
+      medium: '2.4rem',
+      large: '3.2rem',
+      xlarge: '4rem',
+      xxlarge: '4.8rem',
+      xxxlarge: '5.6rem',
+      huge: '6.4rem'
+    }
   },
 
   colors: {
@@ -24,6 +38,7 @@ export const theme = {
     maincolor: "#FFF",
     softcolor: "#ddd",
     darkcolor: "#2a3447",
+    notification: "red"
   },
 
   borderRadius: {
@@ -35,28 +50,15 @@ export const theme = {
     full: "999px"
   },
 
-  space: {
-    px: "1px",
-    1: "0.25rem",
-    2: "0.50rem",
-    3: "0.75rem",
-    4: "1rem",
-    5: "1.21rem",
-    6: "1.50rem",
-    7: "1.75rem",
-    8: "2rem",
-    9: "2.5rem",
-    10: "3rem",
-    11: "3.5rem",
-    12: "4rem",
-    13: "4.5rem",
-    14: "5rem",
-    15: "5.5rem",
-    20: "8rem",
-    30: "13rem",
-    40: "18rem",
-    50: "23rem",
-    80: "36rem",
+  spacings: {
+    xxxsmall: '0.8rem',
+    xxsmall: '1rem',
+    xsmall: '1.6rem',
+    small: '2.4rem',
+    medium: '3.2rem',
+    large: '4.0rem',
+    xlarge: '4.8rem',
+    xxlarge: '5.6rem'
   },
 
   layers: {

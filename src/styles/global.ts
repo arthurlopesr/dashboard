@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-export default createGlobalStyle`
+export const GlobalStyles = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
 
   * {
@@ -22,18 +22,19 @@ export const Main = styled.div`
   font-family: "Inter", sans-serif;
   background-color: ${theme.colors.mainbg};
   color: ${theme.colors.maincolor};
-
 `;
 
 export const Container = styled.div`
   display: flex;
-
 `;
 
 export const MenuContainer = styled.div`
-
+  width: 250px;
+  padding: 5px 20px;
+  border-right: 1px solid ${theme.colors.softbg};
 `;
 
 export const ContentContainer = styled.div`
-
+  padding: 5px 20px;
+  width: 100%;
 `;
