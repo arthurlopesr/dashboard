@@ -11,31 +11,26 @@ import { Footer } from "./components/footer/Footer";
 import { Container, ContentContainer, Main, MenuContainer } from "./styles/global";
 import { Menu } from "./components/menu/Menu";
 import { Login } from "./pages/login/Login";
-import { ThemeProvider } from "styled-components";
-import { theme } from "./styles/theme/default";
+
 
 function App() {
   const Layout = () => {
     return (
-      <ThemeProvider theme={theme}>
-        <Main>
-          <NavBar />
+      <Main>
+        <NavBar />
+        <Container>
 
-          <Container>
+          <MenuContainer>
+            <Menu />
+          </MenuContainer>
 
-            <MenuContainer>
-              <Menu />
-            </MenuContainer>
+          <ContentContainer>
+            <Outlet />
+          </ContentContainer>
 
-            <ContentContainer>
-              <Outlet />
-            </ContentContainer>
-
-          </Container>
-          <Footer />
-        </Main>
-
-      </ThemeProvider>
+        </Container>
+        <Footer />
+      </Main>
     )
   }
 
