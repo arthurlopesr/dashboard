@@ -17,7 +17,6 @@ export const theme = {
     bold: 600,
     sizes: {
       xxxxsmall: '0.8rem',
-      xs: '1rem',
       xxxsmall: '1.2rem',
       xxsmall: '1.4rem',
       xsmall: '1.6rem',

@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-export const GlobalStyles = createGlobalStyle`
+export const GlobalStyles =  createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
 
   * {
@@ -10,9 +10,9 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  html {
+  /* html {
     font-size: 62.5%; // 1rem = 10px
-  }
+  } */
 `
 
 import { styled } from "styled-components";
